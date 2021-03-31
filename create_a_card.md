@@ -8,14 +8,14 @@ In order to create a Card, we can proceed in two ways:
 If you have already created a feed, you can generate a new card by clicking **Create** and then **Data Card**:
 
 <p align="center" >
-  <img src="https://github.com/Edoardoba/test/blob/main/media/create_card_from_agent.PNG"  />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/create_card_from_agent.PNG" width="650" />
 </p>
 
 Then you will be asked to enter the name and to select the feed to associate the card with (you can also create a new feed from this page). 
 
 
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_info.PNG" width="600" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_info.PNG" width="650" />
 </p>
 
 When you are done just click **Add** and you are good to go!
@@ -40,9 +40,8 @@ Once you have created a Data card by using one of the available methods, we offe
 When you enter a card that has just been created, you will be presented two sections by default:
 * Data Card header
 * Natural Language query
-DA SISTEMARE
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/card_landing.PNG" />
 </p>
 
 
@@ -59,7 +58,7 @@ The data card header allows you to change some of the default settings of the ca
 When you are done customizing the settings click save and the system will update. This applies for all the components, **you must click save to show the updated resources**.
 
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/card_settings.PNG" />
 </p>
 
 ## Natural Language query
@@ -67,7 +66,7 @@ When you are done customizing the settings click save and the system will update
 This is the component where the real power of Askdata shows up. If you click on the **Edit** button you will be prompted to enter the query in natural language. After hitting **Run** your results will be quickly shown together with the **recognized entities** and some suggestions on some **other possible interpretations** of your query.
 
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/nl_query.png" />
 </p>
 
 To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. </br>
@@ -75,7 +74,7 @@ To save your NL query, just hit **Done** in the upper right corner or cancel if 
 Now we are going to present all the different components that can be added to a data card in order to customize it:
 
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/components_list.PNG" />
 </p>
 
 
@@ -95,6 +94,16 @@ Now we are going to present all the different components that can be added to a 
 * **Script**: Inject javascript code, **Python** to be supported soon
 
 For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to move it up/down on the card using the arrows on the left hand side.
+
+## Saving the data card
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/preview_done.PNG" />
+</p>
+
+
+
+
 
 
 Stay Tuned on this page since we are constantly developing new components to enhance your experience with data!
