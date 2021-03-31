@@ -1,6 +1,6 @@
 # **Create a new Data card**
 
-A Data Card is the simplest piece of content that can be exchanged on Askdata and it must be necessarily associated with a feed. <br />
+A Data Card is the simplest piece of content that can be exchanged on Askdata and it must be necessarily associated with a feed. <br/>
 In order to create a Card, we can proceed in two ways:
 
 ## Create it from Agent's Home 
@@ -33,11 +33,17 @@ When you are done just click **Add** and you are good to go!
 
 -------QUI PENSAVO DI SPEZZARE IL FILE E CREARE UN ALTRO MD CHIAMATO "Customize your data card"--------------
 
-## Customize your data card
+# Customize your data card
 
-Once you have created a Data card by using one of the available methods, we offer the possibility to highly customize it according to your style and to your needs. 
-.
-.
-.
-.
-.
+Once you have created a Data card by using one of the available methods, we offer the possibility to highly customize it according to your style and to your requirements. With Askdata you can create different types of content within a Data Card, matching your needs with extreme neatness and enhancing your data experience. <br/>
+</br>
+When you enter a card that has just been created, you will be presented two sections:
+* Data Card header
+* Natural Language query
+DA SISTEMARE
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+</p>
+
+
+If you click on a specific section, a tab on the right will be shown and you will be able to set all the desired properties. Now we are going to present all the different components that can be added to a data card in order to customize it!
