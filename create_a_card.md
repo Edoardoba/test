@@ -21,7 +21,7 @@ When you are done just click **Add** and you are good to go!
 
 ## Create it from a feed
 
-If you have already [created a feed](https://docs.askdata.com/docs/be-productive-with-feeds.html), you can simply add a new card by clicking **New Data Card** and customize it with the name.
+If you have already [created a feed](https://docs.askdata.com/docs/be-productive-with-feeds.html), you can simply add a new card by clicking **New Data Card** and customize it with your name.
 
 <p align="center">
   <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
@@ -30,8 +30,13 @@ If you have already [created a feed](https://docs.askdata.com/docs/be-productive
 When you are done just click **Add** and you are good to go!
 
 
--------QUI PENSAVO DI SPEZZARE IL FILE E CREARE UN ALTRO MD CHIAMATO "Customize your data card"
+-------QUI PENSAVO DI SPEZZARE IL FILE E CREARE UN ALTRO MD CHIAMATO "Customize your data card"--------------
 
 ## Customize your data card
 
 Once you have created a Data card by using one of the available methods, we offer the possibility to highly customize it according to your style and to your needs. 
+.
+.
+.
+.
+.
