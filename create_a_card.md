@@ -1,6 +1,7 @@
 # **Create a new Data card**
 
-A Data Card is the simplest piece of content that can be exchanged on Askdata and it must be necessarily associated with a feed. In order to create a Card, we can proceed in two ways:
+A Data Card is the simplest piece of content that can be exchanged on Askdata and it must be necessarily associated with a feed. <br />
+In order to create a Card, we can proceed in two ways:
 
 ## Create it from Agent's Home 
 
