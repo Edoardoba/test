@@ -101,7 +101,7 @@ Special type of chart that shows your results on map
 
 # Compare
 - compare with second query?
-- 
+
 # Table
 Show the results from your NL query as a Table
 
