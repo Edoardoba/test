@@ -37,7 +37,7 @@ When you are done just click **Add** and you are good to go!
 
 Once you have created a Data card by using one of the available methods, we offer the possibility to highly customize it according to your style and to your requirements. With Askdata you can create different types of content within a Data Card, matching your needs with extreme neatness and enhancing your data experience. <br/>
 </br>
-When you enter a card that has just been created, you will be presented two sections:
+When you enter a card that has just been created, you will be presented two sections by default:
 * Data Card header
 * Natural Language query
 DA SISTEMARE
@@ -46,4 +46,29 @@ DA SISTEMARE
 </p>
 
 
-If you click on a specific section, a tab on the right will be shown and you will be able to set all the desired properties. Now we are going to present all the different components that can be added to a data card in order to customize it!
+If you click on a specific section, a tab on the right will be shown and you will be able to set all the desired properties. Now we are going to dive deeper in the two sections mentioned above.
+
+## Data card header
+
+The data card header allows you to change some of the default settings of the card. You are able to customize it:
+
+* **Data Card Title**: Title of your data card that will be shown in the fedd
+* **Data Card Slug**: Slug used by our system, mustn't contain any space
+* **Icon**: We offer a wide variety of icons available but you can also upload one from your device
+
+When you are done customizing the settings click save and the system will update. This applies for all the components, **you must click save to show the updated resources**.
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+</p>
+
+## Natural Language query
+
+This is the component where the real power of Askdata shows up. If you click on the **Edit** button you will be prompted to enter the query in natural language. After hitting **Run** your results will be quickly shown together with the **recognized entities** and some suggestions on some **other possible interpretations** of your query.
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+</p>
+
+To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. </br>
+Now we are going to present all the different components that can be added to a data card in order to customize it!
