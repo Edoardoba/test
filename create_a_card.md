@@ -71,6 +71,7 @@ This is the component where the real power of Askdata shows up. If you click on 
 </p>
 
 To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. </br>
+## Other components
 Now we are going to present all the different components that can be added to a data card in order to customize it:
 
 <p align="center">
@@ -78,19 +79,22 @@ Now we are going to present all the different components that can be added to a 
 </p>
 
 
-* **Query**: You have the possibility to select an (extarnal) dataset, query it and apply filter on it
+* **Query**: Select an (extarnal) dataset, query it and apply filter on it
 * **Search**: Add a new Natural Language Query
 * **SQL Query**: Add a new SQL query
 * **Comment**: A comment that won't be shown in the resulting data card
 * **Text**: Unlike Comment this is a text section that will be available in the resulting data card
 * **List**: Show the results from your NL query as a List 
-* **Map**: Special tipe of chart that shows your results on map
-* **Compare**:
-* **Table**:
-* **Chart**:
-* **Image**:
-* **Button**:
-* **HTML**:
-* **Script**:
+* **Map**: Special type of chart that shows your results on map
+* **Compare**: -- compare with second query?
+* **Table**: Show the results from your NL query as a Table
+* **Chart**: Chart to present the results of the NL query. Wide variety of charts available: Line, Pie, Donut, Stacked Area...
+* **Image**: Paste an Image
+* **Button**: Link an external resource such as a PDF, DOC, web page...
+* **HTML**: Implement HTML code
+* **Script**: Inject javascript code, **Python** to be supported soon
+
+For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to move it up/down on the card using the arrows on the left hand side.
 
 
+Stay Tuned on this page since we are constantly developing new components to enhance your experience with data!
