@@ -52,7 +52,7 @@ If you click on a specific section, a tab on the right will be shown and you wil
 
 The data card header allows you to change some of the default settings of the card. You are able to customize it:
 
-* **Data Card Title**: Title of your data card that will be shown in the fedd
+* **Data Card Title**: Title of your data card that will be shown in the feed
 * **Data Card Slug**: Slug used by our system, mustn't contain any space
 * **Icon**: We offer a wide variety of icons available but you can also upload one from your device
 
@@ -71,4 +71,26 @@ This is the component where the real power of Askdata shows up. If you click on 
 </p>
 
 To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. </br>
-Now we are going to present all the different components that can be added to a data card in order to customize it!
+Now we are going to present all the different components that can be added to a data card in order to customize it:
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/data_card_from_feed.PNG" />
+</p>
+
+
+* **Query**: You have the possibility to select an (extarnal) dataset, query it and apply filter on it
+* **Search**: Add a new Natural Language Query
+* **SQL Query**: Add a new SQL query
+* **Comment**: A comment that won't be shown in the resulting data card
+* **Text**: Unlike Comment this is a text section that will be available in the resulting data card
+* **List**: Show the results from your NL query as a List 
+* **Map**: Special tipe of chart that shows your results on map
+* **Compare**:
+* **Table**:
+* **Chart**:
+* **Image**:
+* **Button**:
+* **HTML**:
+* **Script**:
+
+
