@@ -100,7 +100,7 @@ Show the results from your NL query as a List
 Special type of chart that shows your results on map
 
 # Compare
-- compare with second query?
+Compare the results with a second query
 
 # Table
 Show the results from your NL query as a Table
