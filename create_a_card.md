@@ -97,11 +97,12 @@ For every component you have to possibility to **delete** it using the bin icon 
 
 ## Saving the data card
 
+When finished customizing the card, you can have a preview of it hitting the **Preview** button.
 <p align="center">
   <img src="https://github.com/Edoardoba/test/blob/main/media/preview_done.PNG" />
 </p>
 
-
+At this point you can either **Duplicate** it (i.e. copy it in another feed) or click **Done** to finish the process.
 
 
 
