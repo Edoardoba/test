@@ -196,7 +196,15 @@ Link an external resource such as a PDF, DOC, web page.... You just need to conf
 Implement HTML code
 
 # Script 
-Inject javascript code, **Python** to be supported soon
+This component allows the definition and execution of javascript code,  **Python** to be supported soon. The code has access to all of the query result sets, identified by the variable name assigned to them on the query component settings. Also the results of other script components can be used if they preced this one. The script can be any valid javascript code. The last expression is the script result. It can be any object or a function. For example:
+```
+// Example 1:
+   { 'name' : q1Result[0].customer, 'revenue' :q1Result[0].revenue }
+//   returns an object with 'name' and 'revenue' fields obtained from the first element of the array q1Result.
+```
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/javascript.PNG" />
+</p>
 
 For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to move it up/down on the card using the arrows on the left hand side.
 
