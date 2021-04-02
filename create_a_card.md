@@ -206,7 +206,10 @@ This component allows the definition and execution of javascript code,  **Python
   <img src="https://github.com/Edoardoba/test/blob/main/media/javascript.PNG" />
 </p>
 
-For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to move it up/down on the card using the arrows on the left hand side.
+
+## Moving/deleting the component
+
+For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to **move it up/down** on the card using the arrows on the left hand side.
 
 ## Saving the data card
 
