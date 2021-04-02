@@ -72,10 +72,9 @@ If you select a NL query, you can personalize it applying the properties you wan
 
 - **Query Name**: Name of the query displayed as header
 - **Variable name**: Name of the variable to save the results to. You can later access this variable from other components.
-- **Connection**: -----
+- **Connection**: Some datasets support a specific connection (not the centralized one) for each user that perform a query
 - **Perform NL2SQL before each execution**: Set this to True if you want **NL2SQL** (Natural Language 2 SQL) to be called at each execution.
-- **Buckets**:  -----
-- **Bucket context**: -----
+- **Buckets**: Buckets are the way you can configure as output more than one Data Card, choosing the dimension over the Data Card will be split
 
 
 ## Other components
@@ -91,9 +90,8 @@ Select an (external) dataset, query it and apply filter on it. When you attach t
 
 - **Query Name**: Name of the query displayed as header
 - **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
-- **Connection**: -----
-- **Buckets**:  -----
-- **Bucket context**: -----
+- **Connection**: Some datasets support a specific connection (not the centralized one) for each user that perform a query
+- **Buckets**: Buckets are the way you can configure as output more than one Data Card, choosing the dimension over the Data Card will be split
 
 
 # Search
@@ -108,10 +106,10 @@ With this component you can autonomously add a new SQL query to retrieve thew re
 
 - **Query Name**: Name of the query displayed as header
 - **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
-- **Connection**: -----
+- **Connection**: Some datasets support a specific connection (not the centralized one) for each user that perform a query
 - **Native Type Query**: Allows to send a native query to the selected dataset.
-- **Buckets**:  -----
-- **Bucket context**: -----
+- **Buckets**: Buckets are the way you can configure as output more than one Data Card, choosing the dimension over the Data Card will be split
+
 
 After customizing it, press **Save** to proceed.
 # Comment
