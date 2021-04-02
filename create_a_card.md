@@ -100,7 +100,12 @@ Select an (external) dataset, query it and apply filter on it. When you attach t
 Add a new Natural Language Query. This component is similar to the [**Natural language Query**](#natural-language-query), please refer to the dedicated section.
 
 # SQL Query
-Add a new SQL query
+With this component you can autonomously add a new SQL query to retrieve thew results from your dataset. If enter the **Edit** mode, you can select the dataset and modify the editor with the query you would like to execute. Talking about the setings panel, these are the options:
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/sql_query_settings.PNG" />
+</p>
+
 
 # Comment
 A comment that won't be shown in the resulting data card
