@@ -139,10 +139,24 @@ This component allows you to show your results in a more compact way, printing t
 - **Action URL**: The URL of the action (if enabled)
 
 # Map
-Special type of chart that shows your results on map
+Special type of chart that shows your results on map. The result of the NL query must be suitable to be shown on a Map.
 
 # Compare
-Compare the results with a second query
+This component allows you to compare the results of two different queries. Yo can access the results by specifying the varibale name you defined in the NL query. In the settings panel you have the following options:
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/compare.PNG" />
+</p>
+
+- **Name***: Set the name of the comparison component
+- **Query***: Select the first query
+- **Measure***: Set the measure in the query
+- **Label**: Pick the label..
+- **Custom Label**: Or define a custom label
+- **Description**: Set {{P}} to show the difference in percentage or {{AV}} to use the absolute value
+
+The above parameters can be specified for both the queries.
+
+- **Formatting***: Set **High is Better** or **Low is Better** to set the criterion for the comparison
 
 # Table
 Show the results from your NL query as a Table
