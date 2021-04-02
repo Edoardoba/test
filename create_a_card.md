@@ -191,7 +191,11 @@ Paste an Image in your data card. In the settings panel you can set a title for 
 Link an external resource such as a PDF, DOC, web page.... You just need to configure the name of the component, the label and the URL. 
 
 # HTML
-Implement HTML code
+This component allows the user to implement HTML code to enhance the Data Card. The code could be used for graphical reason (as shown in the picture below) but also for more practical ones. In fact, the results of the query can be accessed within the HTML editor(the variable name must be specified in the settings tab), which is available by clicking the **Edit button**. Here is an example:
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/html_code.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/result_html.PNG" />
+</p>
 
 # Script 
 This component allows the definition and execution of javascript code,  **Python** to be supported soon. The code has access to all of the query result sets, identified by the variable name assigned to them on the query component settings. Also the results of other script components can be used if they preced this one. The script can be any valid javascript code. The last expression is the script result. It can be any object or a function. For example:
