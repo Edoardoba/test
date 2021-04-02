@@ -30,9 +30,6 @@ If you have already [created a feed](https://docs.askdata.com/docs/be-productive
 
 When you are done just click **Add** and you are good to go!
 
-
--------QUI PENSAVO DI SPEZZARE IL FILE E CREARE UN ALTRO MD CHIAMATO "Customize your data card"--------------
-
 # Customize your data card
 
 Once you have created a Data card by using one of the available methods, we offer the possibility to highly customize it according to your style and to your requirements. With Askdata you can create different types of content within a Data Card, matching your needs with extreme neatness and enhancing your data experience. <br/>
@@ -61,7 +58,7 @@ When you are done customizing the settings click save and the system will update
   <img src="https://github.com/Edoardoba/test/blob/main/media/card_settings.PNG" />
 </p>
 
-## Natural Language query
+## Natural Language query 
 
 This is the component where the real power of Askdata shows up. If you click on the **Edit** button you will be prompted to enter the query in natural language. After hitting **Run** your results will be quickly shown together with the **recognized entities** and some suggestions on some **other possible interpretations** of your query.
 
@@ -69,7 +66,18 @@ This is the component where the real power of Askdata shows up. If you click on 
   <img src="https://github.com/Edoardoba/test/blob/main/media/nl_query.png" />
 </p>
 
-To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. </br>
+To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. <br/>
+
+If you select a NL query, you can personalize it applying the properties you want to. Specifically, you are allowed to customize:
+
+- **Query Name**: Name of the query displayed as header
+- **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
+- **Connection**: -----
+- **Perform NL2SQL before each execution**: Set this to True if you want **NL2SQL** (Natural Language 2 SQL) to be called at each execution.
+- **Buckets**:  -----
+- **Bucket context**: -----
+
+
 ## Other components
 Now we are going to present all the different components that can be added to a data card in order to customize it:
 
@@ -79,10 +87,17 @@ Now we are going to present all the different components that can be added to a 
 
 
 # Query
-Select an (extarnal) dataset, query it and apply filter on it
+Select an (external) dataset, query it and apply filter on it. When you attach this component you will be prompted to select a dataset to query with the associated columns. After clicking **Done** it will be shown in the webpage. Moving to the left hand side panel, you can adjust the following properties:
+
+- **Query Name**: Name of the query displayed as header
+- **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
+- **Connection**: -----
+- **Buckets**:  -----
+- **Bucket context**: -----
+
 
 # Search
-Add a new Natural Language Query
+Add a new Natural Language Query. This component is similar to the [**Natural language Query**](#natural-language-query), please refer to the dedicated section.
 
 # SQL Query
 Add a new SQL query
