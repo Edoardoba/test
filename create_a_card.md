@@ -123,7 +123,7 @@ Once you have done that, clisa **Save**, to proceed.
 Unlike Comment this is a text section that will be available in the resulting data card. All the others considerations remain the same. 
 
 # List
-This component allows you to show your results in a more compact way, printing them as a List. it **must** be associated with a query. You can adjust the following properties:
+This component allows you to show your results in a more compact way, printing them as a List. You can adjust the following properties:
 
 <p align="center">
   <img src="https://github.com/Edoardoba/test/blob/main/media/list_prop.PNG" />
@@ -159,16 +159,38 @@ The above parameters can be specified for both the queries.
 - **Formatting***: Set **High is Better** or **Low is Better** to set the criterion for the comparison
 
 # Table
-Show the results from your NL query as a Table
+This component allows you to show your results in a more compact way, printing them as a Table. You can adjust the following properties:
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/table.PNG" />
+</p>
+
+- **Name**: Set the name of the component
+- **Query**: The name of the query you are referring to. This is what you defined under the variable name in [Query](#query)
+- **Columns**: Select the columns to show in the Table.
+- **Number of displayed rows**: Adjust the number of rows displayed
+
+Hit save and the component will be updated according to your preferences.
 
 # Chart
-Chart to present the results of the NL query. Wide variety of charts available: Line, Pie, Donut, Stacked Area...
+This component allows you to show your results in a chart without writing a single line fo code. We have different types of charts available.
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/chart.PNG" />
+</p>
+
+- **Name**: Set the name of the component
+- **Query**: The name of the query you are referring to. This is what you defined under the variable name in [Query](#query)
+- **Type**: charts **currently** available: Horizontal Bar, Line, Pie, Radar, Donut, Vertical Bar, Stacked Area, Stacked Horizontal, Stacked Vertical
+- **parameters**: The varibales to be considered for the chart
+
+Hit save and the component will be updated according to your preferences.
 
 # Image 
-Paste an Image
+Paste an Image in your data card. In the settings panel you can set a title for the Image and Upload one/Choose from existing ones. Hit **Save** and the image will be displayed in the preview.
 
 # Button 
-Link an external resource such as a PDF, DOC, web page...
+Link an external resource such as a PDF, DOC, web page.... You just need to configure the name of the component, the label and the URL. 
 
 # HTML
 Implement HTML code
