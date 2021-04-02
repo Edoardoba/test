@@ -120,10 +120,23 @@ This is thought to be a support for who is working on the data card. It is a com
 Once you have done that, clisa **Save**, to proceed.
 
 # Text
-Unlike Comment this is a text section that will be available in the resulting data card
+Unlike Comment this is a text section that will be available in the resulting data card. All the others considerations remain the same. 
 
 # List
-Show the results from your NL query as a List 
+This component allows you to show your results in a more compact way, printing them as a List. it **must** be associated with a query. You can adjust the following properties:
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/list_prop.PNG" />
+</p>
+
+- **Component Name**: Set the name of the component
+- **Query**: The name of the query you are referring to. This is what you defined under the variable name in [Query](#query)
+- **Title**: Set the title
+- **Description**: Set the description
+- **Number of displayed rows**: Adjust the number of rows displayed
+- **Call To Action Enabled**: Call to action enabled next to every item
+- **Action label**: The label of the action (if enabled)
+- **Action URL**: The URL of the action (if enabled)
 
 # Map
 Special type of chart that shows your results on map
