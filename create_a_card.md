@@ -193,7 +193,7 @@ Link an external resource such as a PDF, DOC, web page.... You just need to conf
 # HTML
 This component allows the user to implement HTML code to enhance the Data Card. The code could be used for graphical reason (as shown in the picture below) but also for more practical ones. In fact, the results of the query can be accessed within the HTML editor(the variable name must be specified in the settings tab), which is available by clicking the **Edit button**. Here is an example:
 <p align="center">
-  <img src="https://github.com/Edoardoba/test/blob/main/media/html_code.PNG" />
+  <img src="https://github.com/Edoardoba/test/blob/main/media/html_code.PNG"  width= "700px"/>
   <img src="https://github.com/Edoardoba/test/blob/main/media/result_html.PNG" />
 </p>
 
