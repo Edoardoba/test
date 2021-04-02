@@ -71,7 +71,7 @@ To save your NL query, just hit **Done** in the upper right corner or cancel if 
 If you select a NL query, you can personalize it applying the properties you want to. Specifically, you are allowed to customize:
 
 - **Query Name**: Name of the query displayed as header
-- **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
+- **Variable name**: Name of the variable to save the results to. You can later access this variable from other components.
 - **Connection**: -----
 - **Perform NL2SQL before each execution**: Set this to True if you want **NL2SQL** (Natural Language 2 SQL) to be called at each execution.
 - **Buckets**:  -----
@@ -206,7 +206,7 @@ This component allows the definition and execution of javascript code,  **Python
   <img src="https://github.com/Edoardoba/test/blob/main/media/javascript.PNG" />
 </p>
 
-
+In the settings panel, you can set the **component name** and the **Variable name*** that is the Name of the variable to save the results to. You can later access this variable from other components.
 ## Moving/deleting the component
 
 For every component you have to possibility to **delete** it using the bin icon just on the right hand side of the component and to **move it up/down** on the card using the arrows on the left hand side.
