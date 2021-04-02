@@ -106,9 +106,18 @@ With this component you can autonomously add a new SQL query to retrieve thew re
   <img src="https://github.com/Edoardoba/test/blob/main/media/sql_query_settings.PNG" />
 </p>
 
+- **Query Name**: Name of the query displayed as header
+- **Variable name**: Name of the variable to save the results to. You can lates access this variable from other components.
+- **Connection**: -----
+- **Native Type Query**: Allows to send a native query to the selected dataset.
+- **Buckets**:  -----
+- **Bucket context**: -----
 
+After customizing it, press **Save** to proceed.
 # Comment
-A comment that won't be shown in the resulting data card
+This is thought to be a support for who is working on the data card. It is a component that stores text that won't be available in the final data card on the feed. In the settings panel on the left, you can enter the comment name and the text. 
+
+Once you have done that, clisa **Save**, to proceed.
 
 # Text
 Unlike Comment this is a text section that will be available in the resulting data card
