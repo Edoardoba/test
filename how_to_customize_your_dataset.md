@@ -13,9 +13,50 @@ When the page is loaded you will have an overview of the first 5 rows of your da
 </p>
 
 - **Data**: An overview of your data
-- **Schema**: Basic information about the columns of your data
-- **Feed**: 
-- **Filter**:
-- **Export**:
-- **Relationships**:
-- **Log**:
+- **Schema**: Basic information about the columns of your data with the possibility to change/create some features
+- **Feed**: Data Cards linked with this data
+- **Filter**: Specify specific filters allowing/restricting acces to data
+- **Export**: Integration with the Python Askdata SDK
+- **Relationships**: Add a relationship with another existing dataset
+- **Log**: Log of the operations that have been performed
+
+Among all this fields, two need to be deepened: **Schema** and **Filter**.
+
+## Schema
+
+As mentioned earlier, this field provides an overview of the columns of your data. If want to edit a specific column just click on it and you will be prompted with a menù with the following editable options:
+- **Code**:
+- **Name**:
+- **Parameter Type**:
+- **Enabled**:
+- **Import Values**:
+- **Description**:
+- **Sample Queries**:
+- **Icon**:
+- **Mandatory**:
+- **Synonyms**:
+- **Aggregation**:
+- **Indexed With**:
+- **Searchable**:
+- **Number Formatting**:
+- **Number Locale**:
+- **Is Date**:
+- **Data Format**:
+- **Date Formatting**:
+- **Value Formatting**:
+- **Synonym Generation Logic**:
+- **Custom**:
+- **Custom Expression**:
+- **Ignore Aggregation for Measures**:
+- **Custom Filter**:
+- **Dynamic Entities**:
+- **defaul Injections**:
+- **Injections**:
+- **Is Geo Parameter**.
+- **Latitude**:
+- **Longitude**:
+- **External Resource**:
+- **Key from external resource**:
+- **Value Formatting**:
+
+Once all the edits have been completed, just hit save and the dataset willl be updated.
