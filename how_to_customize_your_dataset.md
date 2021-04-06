@@ -75,4 +75,15 @@ Geo
 - **Key from external resource**: The name of the field in the external resource that contains the join field
 - **Value Formatting**: Instructions on how to format the values
 
+## Filters
+
+Filters are powerful tools that can be used to restrict access to some data. For example if you are a manager in a company and would like one of your employees to access just the data that is related to himself, you could achieve that by defining a simple filter as in the picture:
+
+<p align="center">
+  <img src="https://github.com/Edoardoba/test/blob/main/media/filters.PNG" width="650" />
+</p>
+
+For example in the above use case we are specifying that if the user login email is *employee@yourcompany.com* then just show him the records where *name=John* and *surname=Doe*. This obviously is a rather simple example of the definition of a filter, more complex ones can be build in order to guarantee the proper flexibility to your dataset.
+
+
 Once all the edits have been completed, just hit save and the dataset willl be updated.
