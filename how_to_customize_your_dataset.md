@@ -25,38 +25,54 @@ Among all this fields, two need to be deepened: **Schema** and **Filter**.
 ## Schema
 
 As mentioned earlier, this field provides an overview of the columns of your data. If want to edit a specific column just click on it and you will be prompted with a menù with the following editable options:
-- **Code**:
-- **Name**:
-- **Parameter Type**:
-- **Enabled**:
-- **Import Values**:
-- **Description**:
-- **Sample Queries**:
-- **Icon**:
-- **Mandatory**:
-- **Synonyms**:
-- **Aggregation**:
-- **Indexed With**:
-- **Searchable**:
-- **Number Formatting**:
-- **Number Locale**:
-- **Is Date**:
-- **Data Format**:
-- **Date Formatting**:
-- **Value Formatting**:
+
+Main
+- **Code***: Code to be used when referring to this column
+- **Name**: Name of the column to be displayed
+- **Parameter Type**: Type of the parameter: Dimension or Measure
+
+Manage
+- **Enabled**: Enable the column for queries
+- **Import Values**: Choose if importing values(Yes) or not(NO)
+
+Metadata
+- **Description**: Description of the column
+- **Sample Queries**: Example of queries to be associated with the column
+- **Icon**: Change the icon of the column. Either pick one or upload yours.
+
+NLP
+- **Mandatory**: Set the column as mandatory.
+- **Synonyms**: Synonyms can be manually associated to the column. This means that when I query using the synonyms, the selected column will be displayed.
+
+Output
+- **Aggregation**: Set an aggregation function among AVG, MIN, MAX and SUM
+- **Indexed With**: 
+- **Searchable**: Make elemnts in the results clickable to narrow down the dataset
+
+Formatting
+- **Number Formatting**: Set a format for the numbers. Various options available
+- **Number Locale**: Set the region you are number refers to: us, en, it or fr.
+- **Is Date**: Yes if this column is a date
+- **Data Format**: Set a custom format for the dates
+- **Date Formatting**: Set a standard format for the dates: dd-MM-yy or dd/MM/yy
+- **Value Formatting**: Custom Javascript expression to format the values in the column. **Must** return a string
+
+Dynamic
 - **Synonym Generation Logic**:
 - **Custom**:
 - **Custom Expression**:
 - **Ignore Aggregation for Measures**:
 - **Custom Filter**:
 - **Dynamic Entities**:
-- **defaul Injections**:
+- **Defaul Injections**: Set another column to be shown with (i.e. when I query sales also show the year, without specifying the word year)  
 - **Injections**:
-- **Is Geo Parameter**.
-- **Latitude**:
-- **Longitude**:
-- **External Resource**:
-- **Key from external resource**:
-- **Value Formatting**:
+
+Geo
+- **Is Geo Parameter**: Yes if this column is a Geo Parameter
+- **Latitude**: Name of the field where to find the value of the latitude
+- **Longitude**: Name of the field where to find the value of the longitude
+- **External Resource**: Path for an external resource where to find the geo attributes
+- **Key from external resource**: The name of the field in the external resource that contains the join field
+- **Value Formatting**: Instructions on how to format the values
 
 Once all the edits have been completed, just hit save and the dataset willl be updated.
