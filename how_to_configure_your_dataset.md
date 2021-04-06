@@ -46,7 +46,7 @@ NLP
 
 Output
 - **Aggregation**: Set an aggregation function among AVG, MIN, MAX and SUM
-- **Indexed With**: 
+- **Indexed With**: Specify Technical key for the current column (onyl dimension) to optimize the query
 - **Searchable**: Make elemnts in the results clickable to narrow down the dataset
 
 Formatting
@@ -58,14 +58,14 @@ Formatting
 - **Value Formatting**: Custom Javascript expression to format the values in the column. **Must** return a string
 
 Dynamic
-- **Synonym Generation Logic**:
-- **Custom**:
-- **Custom Expression**:
-- **Ignore Aggregation for Measures**:
-- **Custom Filter**:
-- **Dynamic Entities**:
-- **Defaul Injections**: Set another column to be shown with (i.e. when I query sales also show the year, without specifying the word year)  
-- **Injections**:
+- **Synonym Generation Logic**: You can use a custom logic to generate synonyms with a specific behaviour
+- **Custom**: boolean: Yes if you are creating a new column, No otherwise
+- **Custom Expression**: You can define a custom logic to define a new column
+- **Ignore Aggregation for Measures**: For custom expressions ignores the default aggregation of the measure
+- **Custom Filter**: Inject a custom filter when a specific is requested
+- **Dynamic Entities**: You can define a custom logic to automatically create entities related to that dimension
+- **Defaul Injections**: Set another column to be shown with (i.e. when I query sales also show the year, without specifying the word year). Applied when no other dimensions and measures are requested  
+- **Injections**: Set another column to be shown with (i.e. when I query sales also show the year, without specifying the word year). Always applied  
 
 Geo
 - **Is Geo Parameter**: Yes if this column is a Geo Parameter
@@ -83,7 +83,7 @@ Filters are powerful tools that can be used to restrict access to some data. For
   <img src="https://github.com/Edoardoba/test/blob/main/media/filters-example.PNG" width="650" />
 </p>
 
-For example in the above use case we are specifying that if the user login email is *employee@yourcompany.com* then just show him the records where *name=John* and *surname=Doe*. This obviously is a rather simple example of the definition of a filter, more complex ones can be build in order to guarantee the proper flexibility to your dataset.
+For example in the above use case we are specifying that if the user login email is *employee@yourcompany.com* then just show him the records where *name=John* and *surname=Doe*. This obviously is a rather simple example of the definition of a filter, more complex ones can be build in order to guarantee the proper flexibility to your dataset. If you would like to have a deeper overview of filters you can watch (this resource)[filters]
 
 
 Once all the edits have been completed, just hit save and the dataset willl be updated.
