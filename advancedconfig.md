@@ -10,7 +10,7 @@ layout: doc
 Welcome in the Advanced Configuration. This section of the documentation is specifically designed for proficient and expert users.
 
 
-## Sorting rules
+## Sorting rulesa
 
 In this example, we provide the instructions for sorting the results of the query
 ```javascript
