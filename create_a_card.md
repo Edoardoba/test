@@ -65,7 +65,7 @@ This is the component where the real power of Askdata shows up. If you click on 
 <p align="center">
   <img src="https://github.com/Edoardoba/test/blob/main/media/nl_query.png" />
 </p>
-s
+
 To save your NL query, just hit **Done** in the upper right corner or cancel if you want to discard it. <br/>
 
 If you select a NL query, you can personalize it applying the properties you want to. Specifically, you are allowed to customize:
