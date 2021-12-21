@@ -79,7 +79,7 @@ If you select a NL query, you can personalize it applying the properties you wan
 
 ## Other components
 Now we are going to present all the different components that can be added to a data card in order to customize it:
-
+fd
 <p align="center">
   <img src="https://github.com/Edoardoba/test/blob/main/media/components_list.PNG" />
 </p>
