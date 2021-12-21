@@ -9,7 +9,7 @@ If you have already created a feed, you can generate a new card by clicking **Cr
 
 <p align="center" >
   <img src="https://github.com/Edoardoba/test/blob/main/media/create_card_from_agent.PNG" width="650" />
-</p>
+</p>fd
 
 Then you will be asked to enter the name and to select the feed to associate the card with (you can also create a new feed from this page). 
 
