@@ -13,3 +13,11 @@ Every widget type you can use on our platform has it's own configuration, that i
 - v
 - v
 - 
+
+
+
+|   Product	|  Sales 	|
+|---	|---	|
+|   	|   	|
+|   	|   	|
+|   	|   	|
