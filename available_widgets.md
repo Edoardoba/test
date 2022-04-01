@@ -18,6 +18,8 @@ Every widget type you can use on our platform has it's own configuration, that i
 
 |   Product	|  Sales 	|
 |---	|---	|
-|   	|   	|
-|   	|   	|
-|   	|   	|
+| Food  	|  100 	|
+|  Beverages 	|  90 	|
+|  Gadgets 	|  80 	|
+|  Tickets 	|  70 	|
+|  Goods 	|  60 	|
